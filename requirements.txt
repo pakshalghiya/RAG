@@ -1,3 +1,4 @@
+# ---- Day 1: LLM + RAG ----
 langchain
 langchain-core
 langchain-community
@@ -9,3 +10,14 @@ langchain-ollama
 sentence-transformers
 pypdf
 python-dotenv
+
+# ---- Day 2: tools, agent, MCP, UI ----
+ddgs                    # DuckDuckGo web search backend
+requests                # Adzuna REST calls
+langchain-mcp-adapters  # pulls tools from an MCP server
+fastmcp                 # serves the tools (mcp_server.py)
+gradio                  # the web UI in agent.py
+
+# ---- to run day2_walkthrough.ipynb ----
+jupyter
+ipykernel
